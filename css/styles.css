@@ -605,28 +605,31 @@ progress {
   list-style: none;
 }
 
-.list-inline .dev-icons {
-  transition: transform 0.75s; /* Animation */
-}
-
-.list-inline .dev-icons:hover {
-  transform: scale(1.5);
-}
-
-.fa .fa-html5:hover {
+.fa-html5:hover {
+  transform: scale(1.1);
+  transform: rotate(45);
+  transition-duration: 1s;
   color: #e34c26 !important;
 }
 
-.fa .fa-css3-alt {
-  color: #264de4 !important;
+.fa-css3:hover {
+  transform: scale(1.1);
+  transform: rotate(45);
+  transition-duration: 1s;
+  color: #66ccff;
 }
 
-.fa .fa-react {
-  border: black 2px;
-  color: #61dbfb !important;
+.fa-react:hover {
+  transform: scale(1.1);
+  transform: rotate(45);
+  transition-duration: 1s;
+  color: #66ccff;
 }
 
-.fa .fa-wordpress {
+.fa-wordpress:hover {
+  transform: scale(1.1);
+  transform: rotate(45);
+  transition-duration: 1s;
   color: #21759b !important;
 }
 
