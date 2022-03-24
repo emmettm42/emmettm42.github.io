@@ -610,9 +610,10 @@ progress {
 }
 
 .fa-html5 {  
-  transition: 0.2s ease-in-out; }
+  transition: 0.2s ease-in-out; 
+}
 
-.fa-css3 {
+.fa-css3-alt {
   transition: 0.2s ease-in-out;
 }
 
@@ -624,14 +625,14 @@ progress {
   transform: scale(1.1);
   transform: rotate(45);
   transition-duration: 1s;
-  color: #e34c26 !important;
+  color: #e34c26;
 }
 
-.fa-css3:hover {
+.fa-css3-alt:hover {
   transform: scale(1.1);
   transform: rotate(45);
   transition-duration: 1s;
-  color: #66ccff;
+  color: #264de4;
 }
 
 .fa-react:hover {
@@ -645,7 +646,7 @@ progress {
   transform: scale(1.1);
   transform: rotate(45);
   transition-duration: 1s;
-  color: #21759b !important;
+  color: #21759b;
 }
 
 .list-inline-item {
