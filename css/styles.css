@@ -605,6 +605,21 @@ progress {
   list-style: none;
 }
 
+.fa-react {
+  transition: 0.2s ease-in-out;
+}
+
+.fa-html5 {  
+  transition: 0.2s ease-in-out; }
+
+.fa-css3 {
+  transition: 0.2s ease-in-out;
+}
+
+.fa-wordpress {
+  transition: 0.2s ease-in-out;
+}
+
 .fa-html5:hover {
   transform: scale(1.1);
   transform: rotate(45);
