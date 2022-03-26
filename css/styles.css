@@ -606,46 +606,46 @@ progress {
 }
 
 .fa-react {
-  transition: 0.2s ease-in-out;
+  transition: ease-in-out;
 }
 
-.fa-html5 {  
-  transition: 0.2s ease-in-out; 
+.fa-html5 {
+  transition: ease-in-out;
 }
 
 .fa-css3-alt {
-  transition: 0.2s ease-in-out;
+  transition: ease-in-out;
 }
 
 .fa-wordpress {
-  transition: 0.2s ease-in-out;
+  transition: ease-in-out;
 }
 
 .fa-html5:hover {
   transform: scale(1.1);
   transform: rotate(45);
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   color: #e34c26;
 }
 
 .fa-css3-alt:hover {
   transform: scale(1.1);
   transform: rotate(45);
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   color: #264de4;
 }
 
 .fa-react:hover {
   transform: scale(1.1);
   transform: rotate(45);
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   color: #66ccff;
 }
 
 .fa-wordpress:hover {
   transform: scale(1.1);
   transform: rotate(45);
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   color: #21759b;
 }
 
