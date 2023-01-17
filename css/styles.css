@@ -621,6 +621,80 @@ progress {
   transition: ease-in-out;
 }
 
+.windows {
+  margin-top: -30%;
+  position: relative;
+  filter: grayscale(100%);
+  width: 50px;
+  transition: ease-in-out;
+}
+
+.windows:hover {
+  transform: scale(1.1);
+  transform: rotate(45);
+  transition-duration: 0.5s;
+  filter: none;
+}
+
+.unity {
+  margin-top: -30%;
+  position: relative;
+  filter: grayscale(100%);
+  width: 50px;
+  transition: ease-in-out;
+}
+
+.unity:hover {
+  transform: scale(1.1);
+  transform: rotate(45);
+  transition-duration: 0.5s;
+  filter: none;
+  color: #2F2F4F; 
+}
+
+.fa-java {
+  transition: ease-in-out;
+}
+
+.fa-java:hover {
+  transform: scale(1.1);
+  transform: rotate(45);
+  transition-duration: 0.5s;
+  color: #f89820;
+}
+
+.java {
+  margin-top: -30%;
+  position: relative;
+  filter: grayscale(100%);
+  width: 50px;
+  transition: ease-in-out;
+}
+
+.java:hover {
+  transform: scale(1.1);
+  transform: rotate(45);
+  transition-duration: 0.5s;
+  filter: none;
+}
+
+
+.csharp {
+  margin-top: -25%;
+  position: relative;
+  filter: grayscale(100%);
+  width: 50px;
+  transition: ease-in-out;
+}
+
+.csharp:hover {
+  transform: scale(1.1);
+  transform: rotate(45);
+  transition-duration: 0.5s;
+  filter: none;
+  color: #A179DC;
+}
+
 .fa-html5:hover {
   transform: scale(1.1);
   transform: rotate(45);
@@ -648,6 +722,8 @@ progress {
   transition-duration: 0.5s;
   color: #21759b;
 }
+
+
 
 .list-inline-item {
   display: inline-block;
